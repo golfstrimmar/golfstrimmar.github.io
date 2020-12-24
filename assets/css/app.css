@@ -91,20 +91,18 @@
   display: none;
 }
 @font-face {
-font-family: ProximaNova-Regular;
-src:
-local(ProximaNova-Regular),
-url('../fonts/ProximaNova-Regular.woff') format('woff'),
-url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
-url('../fonts/ProximaNova-Regular}') format('embedded-opentype'),
-url('../fonts/ProximaNova-Regular.svg  ') format('svg'),
-url('../fonts/ProximaNova-Regular.otf  '),
-url('../fonts/ProximaNova-Regular.eot  ');
-font-weight: normal;
-font-style: normal;
-font-stretch: normal;
+  font-family: ProximaNova-Regular;
+  src: local(ProximaNova-Regular),
+    url(../fonts/ProximaNova-Regular.woff) format("woff"),
+    url(../fonts/ProximaNova-Regular.ttf) format("truetype"),
+    url(../fonts/ProximaNova-Regular}) format("embedded-opentype"),
+    url(../fonts/ProximaNova-Regular.svg) format("svg"),
+    url(../fonts/ProximaNova-Regular.otf),
+    url(../fonts/ProximaNova-Regular.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
 }
-
 @-webkit-keyframes plyr-progress {
   to {
     background-position: 25px 0;
