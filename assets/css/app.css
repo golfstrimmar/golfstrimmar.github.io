@@ -5627,6 +5627,8 @@ input:focus + i {
 .header .header__wrapper {
   width: 100%;
   height: 100%;
+  -webkit-box-shadow: 0 5px 14px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 14px 4px rgba(0, 0, 0, 0.3);
 }
 .header .header__body {
   display: -webkit-box;
@@ -5883,7 +5885,7 @@ input:focus + i {
   transform: translate(-50%, -50%);
   background-color: #ff9419;
 }
-.popup__inner .icon-close2 {
+.popup__inner .fa-times {
   display: block;
   color: #000;
   position: absolute;
@@ -5896,7 +5898,7 @@ input:focus + i {
   transform: translate(0);
   font-size: 12px;
 }
-.popup__inner .icon-close2:hover {
+.popup__inner .fa-times:hover {
   cursor: pointer;
 }
 .slider-main .container-fluid,
