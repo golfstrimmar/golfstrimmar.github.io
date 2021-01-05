@@ -1,1 +1,0 @@
-# golfstrimmar.github.io
