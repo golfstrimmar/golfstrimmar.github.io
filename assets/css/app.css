@@ -2775,6 +2775,16 @@ a:hover {
   text-transform: uppercase;
   color: #757575;
 }
+.menu__link-active {
+  border: 1px solid #128ef2 !important;
+  background-color: #72bcf8;
+  -webkit-box-shadow: 0 0 20px #b1b1b1 !important;
+  box-shadow: 0 0 20px #b1b1b1 !important;
+  color: #fff;
+}
+.menu__link-active > span {
+  color: #fff;
+}
 .header__info {
   grid-area: info;
 }
