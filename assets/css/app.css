@@ -1176,6 +1176,10 @@ a:hover {
 .info__language--footer {
   padding: 0;
 }
+.info__language--footer:hover {
+  cursor: default;
+  color: #222;
+}
 .footer-item__title {
   font-size: 15px;
   font-weight: 600;
@@ -1195,6 +1199,13 @@ a:hover {
   font-stretch: normal;
   font-style: normal;
   padding: 7px 0 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.footer-item__point:hover {
+  cursor: pointer;
+  color: #b84dc4;
 }
 .footer-item__point:first-of-type {
   padding: 0;
@@ -1244,8 +1255,11 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 .search-cards-card:hover {
-  cursor: pointer;
-  background-color: #fdffbc;
+  cursor: url(../img/home/click.svg), auto;
+}
+.popular__cards--add,
+.search__cards--add {
+  display: none;
 }
 .search-cards-card__img {
   width: 72px;
@@ -1273,7 +1287,6 @@ a:hover {
   background-color: #fff;
 }
 .search-cards__card--birthday:hover {
-  cursor: pointer;
   background-color: #e7d9ea;
 }
 .search-cards-card__img--birthday {
@@ -1327,7 +1340,6 @@ a:hover {
   bottom: 0;
 }
 .search-cards-card__add:hover {
-  cursor: pointer;
   color: #5fcef5;
 }
 .home-section__button {
@@ -1472,21 +1484,58 @@ a:hover {
 .popular-cards__card img {
   min-height: 252px;
 }
+.popular-cards__card:hover {
+  cursor: url(../img/home/click.svg), auto;
+}
 .popular__cards {
   margin: 32px 0 0;
 }
 .search-cards__card--toast:hover {
-  cursor: pointer;
   background-color: #cfebd2;
 }
 .hint {
-  background-color: red;
-  width: 100px;
-  height: 100px;
+  position: relative;
   position: absolute;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  width: 107px;
+  height: 38px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+}
+.hint,
+.hint:after {
+  background-color: #557174;
+}
+.hint:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -5px;
+  left: 20px;
+  z-index: 2;
+  -webkit-transform: translate(0) rotate(45deg);
+  -ms-transform: translate(0) rotate(45deg);
+  transform: translate(0) rotate(45deg);
 }
 @media (max-width: 1199px) {
   .header {
