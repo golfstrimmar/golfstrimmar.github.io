@@ -934,7 +934,6 @@ a:hover {
 }
 .header__logo img {
   height: 40px;
-  height: 24px;
 }
 .header__info {
   margin: 0 0 0 25px;
@@ -1621,6 +1620,9 @@ a:hover {
   .header__burger:hover {
     cursor: pointer;
   }
+  .header__logo img {
+    height: 24px;
+  }
   .header__info {
     margin: 0 0 0 10px;
   }
@@ -1835,10 +1837,5 @@ a:hover {
   }
   .search-cards-card__add {
     display: none;
-  }
-}
-@media (max-width: 1199px) {
-  .header {
-    height: 60px;
   }
 }
