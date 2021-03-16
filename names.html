@@ -19,24 +19,18 @@
             ><i class="icon-x header__close"></i>
             <div class="header__info info">
               <div class="info__language info-js">
-                <img src="assets/img/home/ru-flag.webp" alt="img" /><span
-                  >Русский</span
-                >
-                <div class="info__drop info-drop info-drop-js">
-                  <div class="info-drop__item">
-                    <div class="info__language info__language--drop">
-                      <img src="assets/img/home/ru-flag.webp" alt="img" /><span
-                        >Русский</span
-                      >
-                    </div>
-                  </div>
-                  <div class="info-drop__item">
-                    <div class="info__language info__language--drop">
-                      <img src="assets/img/home/ua-flag.webp" alt="img" /><span
-                        >Український</span
-                      >
-                    </div>
-                  </div>
+                <div class="block__select">
+                  <select class="select">
+                    <option
+                      value="assets/img/home/ru-flag.webp"
+                      selected="selected"
+                    >
+                      Русский
+                    </option>
+                    <option value="assets/img/home/ua-flag.webp">
+                      Український
+                    </option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -207,12 +201,12 @@
             >
               <div class="names__title"><h2>Знайти іменинника</h2></div>
               <div class="search-transfer__input">
-                <input placeholder="Пошук серед 216 імен" /><i
+                <input id="demoInput" placeholder="Пошук серед 216 імен" /><i
                   class="icon-search"
                 ></i>
               </div>
             </div>
-            <sectiom class="names__inner names-inner"
+            <sectiom class="names__inner names-inner" id="demoList"
               ><article class="names-inner__letter names-letter">
                 <div class="names-letter__title"><h4>a</h4></div>
                 <ul class="names-letter__list">
@@ -3645,82 +3639,6 @@
                 </ul>
               </article></sectiom
             >
-            <section class="march__connect march-connect">
-              <div class="march-connect__title">
-                <h2>Сподобалася стаття? Поділіться їй в соціальних мережах!</h2>
-              </div>
-              <ul class="march-connect__soc soc" id="march-soc">
-                <li
-                  class="soc__button soc__button--Facebook soc__button--string"
-                >
-                  <button
-                    class="btn btn--success btn--success-icon"
-                    type="button"
-                    tabindex="-1"
-                  >
-                    <img src="assets/img/march/facebook.svg" alt="img" /><span
-                      >Facebook</span
-                    >
-                  </button>
-                </li>
-                <li class="soc__button soc__button--Twitter">
-                  <button
-                    class="btn btn--success btn--success-icon"
-                    type="button"
-                    tabindex="-1"
-                  >
-                    <img src="assets/img/march/twitter.svg" alt="img" /><span
-                      >Twitter</span
-                    >
-                  </button>
-                </li>
-                <li class="soc__button soc__button--Pinterest">
-                  <button
-                    class="btn btn--success btn--success-icon"
-                    type="button"
-                    tabindex="-1"
-                  >
-                    <img src="assets/img/march/pinterest.svg" alt="img" /><span
-                      >Pinterest</span
-                    >
-                  </button>
-                </li>
-                <li class="soc__button soc__button--Telegram">
-                  <button
-                    class="btn btn--success btn--success-icon"
-                    type="button"
-                    tabindex="-1"
-                  >
-                    <img src="assets/img/march/telegram.svg" alt="img" /><span
-                      >Telegram</span
-                    >
-                  </button>
-                </li>
-                <li class="soc__button soc__button--vk">
-                  <button
-                    class="btn btn--success btn--success-icon"
-                    type="button"
-                    tabindex="-1"
-                  >
-                    <img src="assets/img/march/vk.svg" alt="img" /><span
-                      >ВКонтакте</span
-                    >
-                  </button>
-                </li>
-              </ul>
-              <div class="march-connect__text">або посиланням</div>
-              <div class="march-connect__button-link">
-                <button
-                  class="btn btn--success btn--cross"
-                  type="button"
-                  tabindex="-1"
-                >
-                  <span class="copytext path"
-                    >https://www.mobilecards.com.ua/privitannya-zi-svyatami/</span
-                  ><i class="icon-copy"></i>
-                </button>
-              </div>
-            </section>
           </div>
         </div>
       </main>
