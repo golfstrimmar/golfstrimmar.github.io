@@ -780,6 +780,19 @@ th {
   line-height: 1.5;
   height: 100%;
 }
+.info__language .block__select {
+  position: relative;
+}
+.info__language .block__select:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
 .info__language .block__select,
 .info__language .new-select,
 .info__language .select {
