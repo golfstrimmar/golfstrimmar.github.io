@@ -3557,7 +3557,6 @@ input:focus ~ span {
     height: 64px;
   }
   .search-cards__card--birthday {
-    width: 100%;
     min-height: auto;
     padding: 32px 0 !important;
   }
@@ -3754,6 +3753,7 @@ input:focus ~ span {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    justify-items: center;
   }
   .march-connect__title {
     margin: 0 31px;
@@ -3801,9 +3801,9 @@ input:focus ~ span {
     padding: 0 20px;
   }
 }
-@media (min-width: 320px) and (max-width: 361px) {
+@media (min-width: 320px) and (max-width: 359px) {
   .search-cards__card--search {
-    width: 154px;
+    width: 126px;
     min-height: 154px;
   }
 }
