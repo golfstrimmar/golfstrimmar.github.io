@@ -2400,7 +2400,7 @@ a:hover {
 }
 .cat-catalog-content .slider .slick-dots {
   position: absolute;
-  bottom: -50px;
+  bottom: -5rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2494,6 +2494,15 @@ a:hover {
   background-color: #007ca4;
   border: 0.1rem solid #002f3e;
   color: #00a2d7;
+}
+.wrapper-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .about-bunner__body {
   background-image: url(../img/png/about/img-1.png);
@@ -3298,12 +3307,23 @@ a:hover {
   .footer-item__title {
     font-size: 1.5rem;
   }
+  .cat-catalog__sidebar {
+    padding: 10rem 0 0 !important;
+  }
   .cat-catalog-content .card-object {
     width: 20rem;
     height: 33.5rem;
   }
   .cat-catalog-content .card-object__img {
     width: 100%;
+  }
+  .wrapper-categories .cat-filter {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .wrapper-categories .cat-filter__wrapper {
+    margin: 8rem 0 0;
   }
   .about-bunner__body {
     padding: 13.5% 10% 8.5%;
@@ -3476,7 +3496,12 @@ a:hover {
   ._big-number {
     font-size: 15rem;
   }
-  .footer__body,
+  .footer__body {
+    grid-template-columns: 1fr;
+  }
+  .cat-catalog-content .slider .slick-dots {
+    bottom: -3.5rem;
+  }
   .portrait__body {
     grid-template-columns: 1fr;
   }
