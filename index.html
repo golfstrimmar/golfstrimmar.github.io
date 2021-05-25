@@ -1,457 +1,1736 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Uniformos</title>
+
+<head>
+    <title>burgers</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link href="assets/css/app.css" rel="stylesheet" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="wrapper">
-      <section class="first">
-        <header class="header">
-          <div class="header__body container">
-            <a class="header__logo" href="#!"
-              ><img src="assets/img/svg/logo.svg" alt="logo"
-            /></a>
-            <nav class="header__menu menu">
-              <i class="icon-x header__close"></i>
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a class="menu__link" href="#Pradžia">Pradžia</a>
-                </li>
-                <li class="menu__item">
-                  <div class="block__select">
-                    <select class="select">
-                      <option value="#" disabled="disabled">Katalogas</option>
-                      <option value="#">Pradžia</option>
-                      <option value="#">Pradžia</option>
-                      <option value="#">Pradžia</option>
-                      <option value="#">Pradžia</option></select
-                    ><i class="icon-chevron-down block__icon"></i>
+        <section class="first">
+            <header class="header">
+                <div class="header__body container">
+                    <div class="header__high">
+                        <a class="header__logo" href="#!"><img src="assets/img/svg/logo.svg" alt="img" /></a>
+                        <div class="header__properties">
+                            <div class="header__property header__property--address">
+                                <img src="assets/img/svg/s-2.svg" alt="img" /><span>Краснодар, Северная 277</span
+                  >
+                </div>
+                <div class="header__property header__property--work">
+                  <img src="assets/img/svg/s-1.svg" alt="img" /><span
+                    >Пн-Вс: 10:00 - 22:00</span
+                  >
+                </div>
+              </div>
+              <div class="header__info info">
+                <div class="info__phone-data">
+                  <img src="assets/img/svg/s-3.svg" alt="img" /><a
+                    class="info__number"
+                    href="#!"
+                    >+7 (999) 999-99-99</a
+                  >
+                </div>
+                <div class="info__phone">Заказать звонок</div>
+              </div>
+              <div class="header__burger"><span></span></div>
+                        </div>
+                    </div>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list scroll-block">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#!">Crazy меню</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#piza">Пицца</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#classic-menu">Классическое меню</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#lolls">Роллы</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#drinks">Напитки</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#actions">Акции</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#!">Блог</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#!">О ресторане</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#!">Доставка</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#!">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </header>
+            <section class="bunners">
+                <div class="bunners__body">
+                    <div class="bunners__arrows bunners-arrows">
+                        <i class="bunners-arrows__arrow bunners-arrows__arrow_prev"></i
+              ><i class="bunners-arrows__arrow bunners-arrows__arrow_next"></i>
+                    </div>
+                    <div class="bunners__slider slider-bunners-js">
+                        <div class="bunners__item slider-bunners-item" style="background-image: url(./assets/img/png/i-1.png)">
+                            <div class="slider-bunners-item__body">
+                                <img class="slider-bunners-item__img" src="assets/img/png/i-1-1.png" alt="img" />
+                                <div class="slider-bunners-item__title">Собери сам</div>
+                                <a class="slider-bunners-item__button btn btn--success" href="#!">смотреть меню</a
+                  >
+                </div>
+              </div>
+              <div
+                class="bunners__item slider-bunners-item"
+                style="background-image: url(./assets/img/png/i-1.png)"
+              >
+                <div class="slider-bunners-item__body">
+                  <img
+                    class="slider-bunners-item__img"
+                    src="assets/img/png/i-1-1.png"
+                    alt="img"
+                  />
+                  <div class="slider-bunners-item__title">Собери сам</div>
+                  <a
+                    class="slider-bunners-item__button btn btn--success"
+                    href="#!"
+                    >смотреть меню</a
+                  >
+                </div>
+              </div>
+              <div
+                class="bunners__item slider-bunners-item"
+                style="background-image: url(./assets/img/png/i-1.png)"
+              >
+                <div class="slider-bunners-item__body">
+                  <img
+                    class="slider-bunners-item__img"
+                    src="assets/img/png/i-1-1.png"
+                    alt="img"
+                  />
+                  <div class="slider-bunners-item__title">Собери сам</div>
+                  <a
+                    class="slider-bunners-item__button btn btn--success"
+                    href="#!"
+                    >смотреть меню</a
+                  >
+                </div>
+              </div>
+              <div
+                class="bunners__item slider-bunners-item"
+                style="background-image: url(./assets/img/png/i-1.png)"
+              >
+                <div class="slider-bunners-item__body">
+                  <img
+                    class="slider-bunners-item__img"
+                    src="assets/img/png/i-1-1.png"
+                    alt="img"
+                  />
+                  <div class="slider-bunners-item__title">Собери сам</div>
+                  <a
+                    class="slider-bunners-item__button btn btn--success"
+                    href="#!"
+                    >смотреть меню</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="new" id="new">
+        <div class="container">
+          <div class="new__title _title"><h2>Хиты и новинки</h2></div>
+        </div>
+        <div class="new__slider">
+          <section class="slider-models" id="slider-model">
+            <div class="container">
+              <div class="slider-models__body">
+                <div class="slider__slider slider-models__content slider">
+                  <ul
+                    class="
+                      slider-models__slider
+                      slider__body slider-js-2
+                      scroll-block
+                    "
+                  >
+                    <li class="slider-models__item slider-card">
+                      <a class="slider-card__link" href="#!"
+                        ><div class="new__lable new-lable">
+                          <span>ХИТ</span>
+                        </div>
+                        <div class="boxses-item">
+                          <div class="boxses-item__img">
+                            <img
+                              src="./assets/img/png/products/i-1.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div class="boxses-item__title">Гавайская</div>
+                          <div class="boxses-item__text">300 руб.</div>
+                        </div></a
+                      >
+                    </li>
+                    <li class="slider-models__item slider-card">
+                      <a class="slider-card__link" href="#!"
+                        ><div class="new__lable new-lable">
+                          <span>ХИТ</span>
+                        </div>
+                        <div class="boxses-item">
+                          <div class="boxses-item__img">
+                            <img
+                              src="./assets/img/png/products/i-2.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div class="boxses-item__title">Гавайская</div>
+                          <div class="boxses-item__text">300 руб.</div>
+                        </div></a
+                      >
+                    </li>
+                    <li class="slider-models__item slider-card">
+                      <a class="slider-card__link" href="#!"
+                        ><div class="new__lable new-lable">
+                          <span>NEW</span>
+                        </div>
+                        <div class="boxses-item">
+                          <div class="boxses-item__img">
+                            <img
+                              src="./assets/img/png/products/i-3.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div class="boxses-item__title">Гавайская</div>
+                          <div class="boxses-item__text">300 руб.</div>
+                        </div></a
+                      >
+                    </li>
+                    <li class="slider-models__item slider-card">
+                      <a class="slider-card__link" href="#!"
+                        ><div class="new__lable new-lable">
+                          <span>NEW</span>
+                        </div>
+                        <div class="boxses-item">
+                          <div class="boxses-item__img">
+                            <img
+                              src="./assets/img/png/products/i-4.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div class="boxses-item__title">Гавайская</div>
+                          <div class="boxses-item__text">300 руб.</div>
+                        </div></a
+                      >
+                    </li>
+                    <li class="slider-models__item slider-card">
+                      <a class="slider-card__link" href="#!"
+                        ><div class="new__lable new-lable">
+                          <span>ХИТ</span>
+                        </div>
+                        <div class="boxses-item">
+                          <div class="boxses-item__img">
+                            <img
+                              src="./assets/img/png/products/i-1.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div class="boxses-item__title">Гавайская</div>
+                          <div class="boxses-item__text">300 руб.</div>
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="piza" id="piza">
+        <section class="modaL" id="modaL">
+          <div class="popups slide-1-popup" id="slide-1-popup">
+            <div class="popups__overlay">
+              <a class="button-phone" href="#!"></a
+              ><a class="button-cart" href="#!"
+                ><span class="button-cart-number"> 1</span></a
+              >
+              <div class="popups__inner product-page">
+                <i class="icon-x popup__close close-js"></i>
+                <div class="product-page__wrapper">
+                  <div
+                    class="product-page__img"
+                    style="background-image: url('assets/img/png/card/i-1.png')"
+                  ></div>
+                  <div class="product-page__buttons-red">
+                    <a
+                      class="
+                        product-page__button-add
+                        btn btn--success
+                        popups-init-js
+                      "
+                      href="#!"
+                      rel="slide-add-layer"
+                      >Добавить слой</a
+                    ><a
+                      class="
+                        product-page__button-choice
+                        btn btn--success
+                        popups-init-js
+                      "
+                      href="#!"
+                      rel="slide-bord"
+                    >
+                      ВЫБРАТЬ БОРТИК</a
+                    >
                   </div>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="#Apie_mus">Apie mus</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="#Kontaktai">Kontaktai</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="header__info info">
-              <a class="info__item" href="#!"
-                ><img src="./assets/img/svg/facebook.svg" /></a
-              ><a class="info__item" href="#!"
-                ><img src="./assets/img/svg/insta-dark.svg"
-              /></a>
+                  <div class="product-page__title"><h3>Цезарь</h3></div>
+                  <div class="product-page__buttons-type">
+                    <a
+                      class="product-page__button-type1 _button-type-active"
+                      href="#!"
+                      >458 ГР</a
+                    ><a class="product-page__button-type2" href="#!">229 ГР</a>
+                            </div>
+                            <div class="product-page__description">
+                                Свежие листья салата айсберг, цыпленок, томаты черри, сыры чеддер и пармезан, моцарелла, соус альфредо, соус цезарь
+                            </div>
+                            <div class="product-page__buttons-white">
+                                <a class="product-page__button-add-components" href="#!">дОБАВИТЬ ингредиенты</a
+                    ><a class="product-page__button-remove-components" href="#!"
+                      >УБРАТЬ ингредиенты</a
+                    >
+                  </div>
+                  <ul
+                    class="
+                      product-page__catalog
+                      product-catalog
+                      scroll-block-popup
+                    "
+                  >
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div class="product-item__title"><h5>Шампиньоны</h5></div>
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__price">30 руб.</div>
+                    </li>
+                  </ul>
+                  <div class="product-page__low">
+                    <div class="product-page__price">520 <span>руб.</span></div>
+                    <a
+                      class="product-page__button-add-cart btn btn--success"
+                      href="#!"
+                      >выбрать</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-            <i class="icon-align-justify header__burger"></i>
           </div>
-        </header>
-      </section>
-      <section class="slider-cards" id="slider-cards">
-        <div class="slider-cards__body">
-          <div class="slider__slider slider-cards__content slider">
-            <ul class="slider-cards__slider slider__body slider-js-1">
-              <li class="slider-cards__item slider-card">
-                <img
-                  class="slider-card__img"
-                  data-lazy="./assets/img/png/img-1.png"
-                />
-                <div class="slider-card__title main-title container">
-                  <h2>Apranga mokykloms ir organizacijoms</h2>
-                  <a class="slider-card__order" href="#!"
-                    ><span>Užsakyti</span></a
+          <div class="popups slide-add-layer" id="slide-add-layer">
+            <div class="popups__overlay">
+              <a class="button-phone" href="#!"></a
+              ><a class="button-cart" href="#!"
+                ><span class="button-cart-number"> 1</span></a
+              >
+              <div class="popups__inner">
+                <i class="icon-x popup__close close-js"></i>
+                <div class="slide-add-layer__wrapper add-wrap">
+                  <ul
+                    class="
+                      add-wrap__catalog
+                      add-wrap-catalog
+                      product-catalog
+                      scroll-block-popup-add
+                    "
+                  >
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>Ветчина</h5></div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title">
+                        <h5>Кисло-сладкий цыпленок</h5>
+                      </div>
+                      <div class="product-item__price">300 руб.</div>
+                    </li>
+                  </ul>
+                  <div class="add-wrap__title">
+                    <h3>
+                      <span class="_red-span">Добавить </span><span>слой</span>
+                    </h3>
+                  </div>
+                  <div class="add-wrap__cards">
+                    <div class="add-wrap__card add-product-card">
+                      <i class="icon-x"></i>
+                      <div
+                        class="add-product-card__img"
+                        style="
+                          background-image: url('assets/img/png/card/i-1.png');
+                        "
+                      ></div>
+                      <div class="add-product-card__title"><h4>Цезарь</h4></div>
+                      <div class="add-product-card__tab">
+                        <section class="tabs" id="tabs">
+                          <div class="tabs-item">
+                            <div class="tabs-item__title tabs-title-js">
+                              <i
+                                class="
+                                  icon-chevron-down
+                                  tabs-item__img
+                                  tabs-img-js
+                                "
+                              ></i
+                              ><span> Состав пиццы</span>
+                            </div>
+                            <div class="tabs__drop tabs-drop tabs-drop-js">
+                              <div class="tabs-drop__info">
+                                Свежие листья салата айсберг, цыпленок, томаты
+                                черри, сыры чеддер и пармезан, моцарелла, соус
+                                альфредо, соус цезарьСвежие листья салата
+                                айсберг, цыпленок, томаты черри, сыры чеддер и
+                                пармезан, моцарелла, соус альфредо, соус цезарь
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="add-product-card__price">300 руб.</div>
+                    </div>
+                    <div
+                      class="
+                        add-wrap__card
+                        add-product-card add-product-card--empty
+                      "
+                    >
+                      <a class="add-product-card__link" href="#!"></a>
+                                <div class="add-product-card__img--empty" style="background-image: url('assets/img/svg/piza.svg')"></div>
+                                <div class="add-product-card__text--empty">
+                                    <p>выберите 2</p>
+                                    <p>ярус пиццы</p>
+                                </div>
+                            </div>
+                            <div class="
+                        add-wrap__card
+                        add-product-card add-product-card--empty
+                      ">
+                                <a class="add-product-card__link" href="#!"></a>
+                                <div class="add-product-card__img--empty" style="background-image: url('assets/img/svg/piza.svg')"></div>
+                                <div class="add-product-card__text--empty">
+                                    <p>выберите 2</p>
+                                    <p>ярус пиццы</p>
+                                </div>
+                            </div>
+                            <div class="
+                        add-wrap__card
+                        add-product-card add-product-card--empty
+                      ">
+                                <a class="add-product-card__link" href="#!"></a>
+                                <div class="add-product-card__img--empty" style="background-image: url('assets/img/svg/piza.svg')"></div>
+                                <div class="add-product-card__text--empty">
+                                    <p>выберите 2</p>
+                                    <p>ярус пиццы</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-wrap__sum">
+                            <span>Итого:</span>
+                            <div class="add-wrap__number">520<span>руб</span></div>
+                        </div>
+                        <a class="add-wrap__button btn btn--success" href="#!">выбрать</a
                   >
                 </div>
-              </li>
-              <li class="slider-cards__item slider-card">
-                <img
-                  class="slider-card__img"
-                  data-lazy="./assets/img/png/img-1.png"
-                />
-                <div class="slider-card__title main-title container">
-                  <h2>Apranga mokykloms ir organizacijoms</h2>
-                  <a class="slider-card__order" href="#!"
-                    ><span>Užsakyti</span></a
-                  >
-                </div>
-              </li>
-              <li class="slider-cards__item slider-card">
-                <img
-                  class="slider-card__img"
-                  data-lazy="./assets/img/png/img-1.png"
-                />
-                <div class="slider-card__title main-title container">
-                  <h2>Apranga mokykloms ir organizacijoms</h2>
-                  <a class="slider-card__order" href="#!"
-                    ><span>Užsakyti</span></a
-                  >
-                </div>
-              </li>
-              <li class="slider-cards__item slider-card">
-                <img
-                  class="slider-card__img"
-                  data-lazy="./assets/img/png/img-1.png"
-                />
-                <div class="slider-card__title main-title container">
-                  <h2>Apranga mokykloms ir organizacijoms</h2>
-                  <a class="slider-card__order" href="#!"
-                    ><span>Užsakyti</span></a
-                  >
-                </div>
-              </li>
-              <li class="slider-cards__item slider-card">
-                <img
-                  class="slider-card__img"
-                  data-lazy="./assets/img/png/img-1.png"
-                />
-                <div class="slider-card__title main-title container">
-                  <a class="slider-card__order" href="#!"
-                    ><span>Užsakyti</span></a
-                  >
-                  <h2>Apranga mokykloms ir organizacijoms</h2>
-                </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="cards" id="cards">
-        <div class="cards__wrapper">
+          <div class="popups slide-add-layer slide-bord" id="slide-bord">
+            <div class="popups__overlay">
+              <a class="button-phone" href="#!"></a
+              ><a class="button-cart" href="#!"
+                ><span class="button-cart-number"> 1</span></a
+              >
+              <div class="popups__inner">
+                <i class="icon-x popup__close close-js"></i>
+                <div class="slide-add-layer__wrapper add-wrap">
+                  <ul
+                    class="
+                      add-wrap__catalog
+                      add-wrap-catalog
+                      product-catalog
+                      scroll-block-popup-add
+                    "
+                  >
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/bord/i-1.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>моцарела</h5></div>
+                      <div class="product-item__price">120 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/bord/i-2.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>пармезан</h5></div>
+                      <div class="product-item__price">120 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/bord/i-3.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>ЭДАМ</h5></div>
+                      <div class="product-item__price">120 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/bord/i-4.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>ГОРГОНЗОЛА</h5></div>
+                      <div class="product-item__price">120 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/bord/i-5.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>Сулугуни</h5></div>
+                      <div class="product-item__price">120 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/bord/i-6.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>Фета</h5></div>
+                      <div class="product-item__price">120 руб.</div>
+                    </li>
+                    <li class="product-catalog__item product-item">
+                      <div
+                        class="product-item__img"
+                        style="
+                          background-image: url('assets/img/png/bord/i-7.png');
+                        "
+                      ></div>
+                      <div class="product-item__title"><h5>МЮНСТЕР</h5></div>
+                      <div class="product-item__price">120 руб.</div>
+                    </li>
+                  </ul>
+                  <div class="add-wrap__title">
+                    <h3>
+                      <span>Выбрать </span><span class="_red-span">бортик</span>
+                    </h3>
+                  </div>
+                  <div class="add-wrap__cards">
+                    <div
+                      class="
+                        add-wrap__card
+                        add-product-card add-product-card--empty
+                      "
+                    >
+                      <a class="add-product-card__link" href="#!"></a>
+                        <div class="add-product-card__img--empty" style="
+                          background-image: url('assets/img/svg/cheese.svg');
+                        "></div>
+                        <div class="add-product-card__text--empty">
+                            <p>выберите</p>
+                            <p>сыр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-wrap__sum">
+                    <span>Итого:</span>
+                    <div class="add-wrap__number">520<span>руб</span></div>
+                </div>
+                <a class="add-wrap__button btn btn--success" href="#!">выбрать</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popups slide-3-popup">
+            <div class="popups__overlay">
+              <div class="popups__inner">
+                <i class="icon-x popup__close close-js"></i>
+                <p>это 3 попап</p>
+              </div>
+            </div>
+          </div>
+          <div class="popups slide-4-popup">
+            <div class="popups__overlay">
+              <div class="popups__inner">
+                <i class="icon-x popup__close close-js"></i>
+                <p>это 4 попап</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="piza__wrapper">
+          <div class="piza__decor-1"></div>
+          <div class="piza__decor-2"></div>
+          <div class="piza__decor-3"></div>
+          <a class="button-phone" href="#!"></a
+          ><a class="button-cart" href="#!"
+            ><span class="button-cart-number"> 1</span></a
+          >
           <div class="container">
-            <div class="cards__title">
-              <h2>Kodėl verta siūti mokyklinę uniformą su mumis?</h2>
-            </div>
-            <div class="cards__body">
-              <div class="cards__item cards-item">
-                <div class="card">
-                  <img
-                    class="card__img card__img--normal"
-                    src="assets/img/svg/Needle.svg"
-                    alt="img"
-                  /><img
-                    class="card__img card__img--hover"
-                    src="assets/img/svg/needle-white.svg"
-                    alt="img"
-                  />
-                  <h5 class="card__title">
-                    Atsparūs yrimui ir lengvai prižiūrimi audiniai
-                  </h5>
+            <div class="piza__title _title"><h2>Пицца</h2></div>
+            <ul class="piza__body">
+              <li class="piza__item product-card">
+                <a
+                  class="product-card__link popups-init-js"
+                  href="#!"
+                  rel="slide-1-popup"
+                ></a>
+                <div class="product-card__new-lable new-lable">
+                    <span>ХИТ</span>
                 </div>
-              </div>
-              <div class="cards__item cards-item">
-                <div class="card">
-                  <img
-                    class="card__img card__img--normal"
-                    src="assets/img/svg/kimono.svg"
-                    alt="img"
-                  /><img
-                    class="card__img card__img--normal"
-                    src="assets/img/svg/shert.svg"
-                    alt="img"
-                  /><img
-                    class="card__img card__img--hover"
-                    src="assets/img/svg/kimono-white.svg"
-                    alt="img"
-                  /><img
-                    class="card__img card__img--hover"
-                    src="assets/img/svg/shert-white.svg"
-                    alt="img"
-                  />
-                  <h5 class="card__title">
-                    Platus asortimentas ir modernūs modeliai
-                  </h5>
+                <div class="product-card__img" style="background-image: url('assets/img/png/piza/i-1.png')"></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                    Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус
                 </div>
-              </div>
-              <div class="cards__item cards-item">
-                <div class="card">
-                  <img
-                    class="card__img card__img--normal"
-                    src="assets/img/svg/school.svg"
-                    alt="img"
-                  /><img
-                    class="card__img card__img--hover"
-                    src="assets/img/svg/school-white.svg"
-                    alt="img"
-                  />
-                  <h5 class="card__title">
-                    Emblemų su mokyklos logotipu gaminimas
-                  </h5>
-                </div>
-              </div>
-              <div class="cards__item cards-item">
-                <div class="card">
-                  <img
-                    class="card__img card__img card__img--normal"
-                    src="assets/img/svg/swing.svg"
-                    alt="img"
-                  /><img
-                    class="card__img card__img card__img--hover"
-                    src="assets/img/svg/swing-white.svg"
-                    alt="img"
-                  />
-                  <h5 class="card__title">Didelis dydžių diapazonas</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="models" id="models">
-        <div class="container">
-          <div class="models__body">
-            <div class="models__item models-item">
-              <div class="models-item__column">
-                <div class="models-item__title title-1">
-                  <h2>Mokyklinės uniformos</h2>
-                  <span class="_big-number">1</span>
-                </div>
-                <div class="models-item__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque sollicitudin, sem vel ullamcorper sollicitudin, arcu
-                  turpis euismod diam, vel auctor dolor magna ut arcu.
-                </div>
-                <button
-                  class="btn btn--light models-item__button"
-                  type="button"
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!">выбрать</a
                 >
-                  Katalogas
-                </button>
-              </div>
-              <div class="models-item__column">
-                <div
-                  class="models-item__img"
-                  style="background-image: url('./assets/img/png/img-2.png')"
-                ></div>
-              </div>
-            </div>
-            <div class="models__item models-item">
-              <div class="models-item__column">
-                <div class="models-item__title title-1">
-                  <h2>Apranga organizacijoms</h2>
-                  <span class="_big-number">2</span>
+              </li>
+              <li class="piza__item product-card">
+                <a
+                  class="product-card__link popups-init-js"
+                  href="#!"
+                  rel="slide-2-popup"
+                ></a>
+                <div class="product-card__new-lable new-lable">
+                    <span>NEW</span>
                 </div>
-                <div class="models-item__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque sollicitudin, sem vel ullamcorper sollicitudin, arcu
-                  turpis euismod diam, vel auctor dolor magna ut arcu.
+                <div class="product-card__img" style="background-image: url('assets/img/png/piza/i-2.png')"></div>
+                <div class="product-card__title">Кисло-сладкий цыпленок</div>
+                <div class="product-card__text">
+                    Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус
                 </div>
-                <button
-                  class="btn btn--light models-item__button"
-                  type="button"
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!">выбрать</a
                 >
-                  Katalogas
-                </button>
-              </div>
-              <div class="models-item__column">
-                <div
-                  class="models-item__img"
-                  style="background-image: url('./assets/img/png/img-4.png')"
-                ></div>
-              </div>
-            </div>
-            <div class="models__item models-item">
-              <div class="models-item__column">
-                <div class="models-item__title title-1">
-                  <h2>Koncertinė apranga</h2>
-                  <span class="_big-number">3</span>
+              </li>
+              <li class="piza__item product-card">
+                <a
+                  class="product-card__link popups-init-js"
+                  href="#!"
+                  rel="slide-3-popup"
+                ></a>
+                <div class="product-card__img" style="background-image: url('assets/img/png/piza/i-3.png')"></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                    Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус
                 </div>
-                <div class="models-item__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque sollicitudin, sem vel ullamcorper sollicitudin, arcu
-                  turpis euismod diam, vel auctor dolor magna ut arcu.
-                </div>
-                <button
-                  class="btn btn--light models-item__button"
-                  type="button"
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!">выбрать</a
                 >
-                  Katalogas
-                </button>
-              </div>
-              <div class="models-item__column">
-                <div
-                  class="models-item__img"
-                  style="background-image: url('./assets/img/png/img-3.png')"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="slider-models" id="slider-model">
-        <div class="slider-models__body container">
-          <div class="slider__slider slider-models__content slider">
-            <ul class="slider-models__slider slider__body slider-js-2">
-              <li class="slider-models__item slider-card">
-                <a class="slider-card__link" href="#!"></a>
-                <div
-                  class="slider-card__img"
-                  style="background-image: url('assets/img/png/img-5.png')"
-                ></div>
               </li>
-              <li class="slider-models__item slider-card">
-                <a class="slider-card__link" href="#!"></a>
-                <div
-                  class="slider-card__img"
-                  style="background-image: url('assets/img/png/img-6.png')"
-                ></div>
+              <li class="piza__item product-card">
+                <a
+                  class="product-card__link popups-init-js"
+                  href="#!"
+                  rel="slide-4-popup"
+                ></a>
+                <div class="product-card__img" style="background-image: url('assets/img/png/piza/i-4.png')"></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                    Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!">выбрать</a
+                >
               </li>
-              <li class="slider-models__item slider-card">
-                <a class="slider-card__link" href="#!"></a>
+              <li class="piza__item product-card">
                 <div
-                  class="slider-card__img"
-                  style="background-image: url('assets/img/png/img-7.png')"
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/piza/i-5.png')"
                 ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
               </li>
-              <li class="slider-models__item slider-card">
-                <a class="slider-card__link" href="#!"></a>
+              <li class="piza__item product-card">
                 <div
-                  class="slider-card__img"
-                  style="background-image: url('assets/img/png/img-8.png')"
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/piza/i-6.png')"
                 ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
               </li>
-              <li class="slider-models__item slider-card">
-                <a class="slider-card__link" href="#!"></a>
+              <li class="piza__item product-card">
                 <div
-                  class="slider-card__img"
-                  style="background-image: url('assets/img/png/img-5.png')"
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/piza/i-7.png')"
                 ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
               </li>
-              <li class="slider-models__item slider-card">
-                <a class="slider-card__link" href="#!"></a>
+              <li class="piza__item product-card">
+                <div class="product-card__new-lable new-lable">
+                  <span>ХИТ</span>
+                </div>
                 <div
-                  class="slider-card__img"
-                  style="background-image: url('assets/img/png/img-6.png')"
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/piza/i-8.png')"
                 ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/piza/i-9.png')"
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/piza/i-10.png')"
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/piza/i-1.png')"
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="insta" id="insta">
-        <div class="container">
-          <div class="insta__title cards__title">
-            <h2>Sekite mus Instagram</h2>
-            <img src="assets/img/svg/Instagram.svg" alt="img" />
+      <section class="piza classic" id="classic">
+        <div class="piza__wrapper">
+          <div class="classic__decor-1"></div>
+          <div class="classic__decor-2"></div>
+          <div class="classic__decor-3"></div>
+          <div class="classic__decor-4"></div>
+          <div class="classic__decor-5"></div>
+          <div class="container">
+            <div class="piza__title _title"><h2>Классическое меню</h2></div>
+            <ul class="piza__body">
+              <li class="piza__item product-card popups-init-js">
+                <div class="product-card__new-lable new-lable">
+                  <span>ХИТ</span>
+                </div>
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-1.png');
+                  "
+                ></div>
+                <div class="product-card__title">Шаверма с курицей</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card popups-init-js">
+                <div class="product-card__new-lable new-lable">
+                  <span>NEW</span>
+                </div>
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-2.png');
+                  "
+                ></div>
+                <div class="product-card__title">Шаурма свиная</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card popups-init-js">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-3.png');
+                  "
+                ></div>
+                <div class="product-card__title">Хот-дог с говядиной</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card popups-init-js">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-4.png');
+                  "
+                ></div>
+                <div class="product-card__title">Хот-дог с курицей</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-5.png');
+                  "
+                ></div>
+                <div class="product-card__title">Цезарь с креветкой</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-6.png');
+                  "
+                ></div>
+                <div class="product-card__title">Греческий салат</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-1.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div class="product-card__new-lable new-lable">
+                  <span>ХИТ</span>
+                </div>
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-2.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-3.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-4.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-5.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="insta__body">
-            <div class="insta__item insta-item">
-              <a class="slider-card__link" href="#!"></a
-              ><img
-                class="insta-item__img"
-                src="assets/img/png/img-9.png"
-                alt="img"
-              />
-            </div>
-            <div class="insta__item insta-item">
-              <a class="slider-card__link" href="#!"></a
-              ><img
-                class="insta-item__img"
-                src="assets/img/png/img-10.png"
-                alt="img"
-              />
-            </div>
-            <div class="insta__item insta-item">
-              <a class="slider-card__link" href="#!"></a
-              ><img
-                class="insta-item__img"
-                src="assets/img/png/img-11.png"
-                alt="img"
-              />
-            </div>
-            <div class="insta__item insta-item">
-              <a class="slider-card__link" href="#!"></a
-              ><img
-                class="insta-item__img"
-                src="assets/img/png/img-12.png"
-                alt="img"
-              />
-            </div>
+        </div>
+      </section>
+      <section class="piza rollers" id="rollers">
+        <div class="piza__wrapper">
+          <div class="rollers__decor-1"></div>
+          <div class="rollers__decor-2"></div>
+          <div class="rollers__decor-3"></div>
+          <div class="rollers__decor-4"></div>
+          <div class="container">
+            <div class="piza__title _title"><h2>Роллы</h2></div>
+            <ul class="piza__body">
+              <li class="piza__item product-card">
+                <div class="product-card__new-lable new-lable">
+                  <span>ХИТ</span>
+                </div>
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-1.png');
+                  "
+                ></div>
+                <div class="product-card__title">Запеченный Цезарь ролл</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div class="product-card__new-lable new-lable">
+                  <span>NEW</span>
+                </div>
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-2.png');
+                  "
+                ></div>
+                <div class="product-card__title">
+                  Запеченный ролл Угорь&Кура
+                </div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-3.png');
+                  "
+                ></div>
+                <div class="product-card__title">
+                  Запеченный ролл с грибами шиитаке
+                </div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-4.png');
+                  "
+                ></div>
+                <div class="product-card__title">
+                  Ролл Филадельфия с лососем
+                </div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-5.png');
+                  "
+                ></div>
+                <div class="product-card__title">Цезарь с креветкой</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-6.png');
+                  "
+                ></div>
+                <div class="product-card__title">Греческий салат</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-1.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div class="product-card__new-lable new-lable">
+                  <span>ХИТ</span>
+                </div>
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-2.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-3.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-4.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-5.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="
+                    background-image: url('assets/img/png/classic/i-5.png');
+                  "
+                ></div>
+                <div class="product-card__title">Пепперони фреш</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+            </ul>
+            <ul class="rollers__body-sauce body-sauce scroll-lg">
+              <li class="body-sauce__item body-sauce-item">
+                <div class="body-sauce-item__title"><h3>Имбирь</h3></div>
+                <div
+                  class="body-sauce-item__img"
+                  style="
+                    background-image: url('assets/img/png/rollers/i-11.png');
+                  "
+                ></div>
+                <div class="alic">
+                  <div class="body-sauce-item__price">35 руб.</div>
+                  <a class="body-sauce-item__add" href="#!"></a>
+                </div>
+                </li>
+                <li class="body-sauce__item body-sauce-item">
+                    <div class="body-sauce-item__title">
+                        <h3>Имбирь</h3>
+                    </div>
+                    <div class="body-sauce-item__img" style="
+                    background-image: url('assets/img/png/rollers/i-12.png');
+                  "></div>
+                    <div class="alic">
+                        <div class="body-sauce-item__price">35 руб.</div>
+                        <a class="body-sauce-item__add" href="#!"></a>
+                    </div>
+                </li>
+                <li class="body-sauce__item body-sauce-item">
+                    <div class="body-sauce-item__title">
+                        <h3>Васаби</h3>
+                    </div>
+                    <div class="body-sauce-item__img" style="
+                    background-image: url('assets/img/png/rollers/i-13.png');
+                  "></div>
+                    <div class="alic">
+                        <div class="body-sauce-item__price">35 руб.</div>
+                        <a class="body-sauce-item__add" href="#!"></a>
+                    </div>
+                </li>
+                <li class="body-sauce__item body-sauce-item">
+                    <div class="body-sauce-item__title">
+                        <h3>Соевый соус</h3>
+                    </div>
+                    <div class="body-sauce-item__img" style="
+                    background-image: url('assets/img/png/rollers/i-11.png');
+                  "></div>
+                    <div class="alic">
+                        <div class="body-sauce-item__price">35 руб.</div>
+                        <a class="body-sauce-item__add" href="#!"></a>
+                    </div>
+                </li>
+                <li class="body-sauce__item body-sauce-item">
+                    <div class="body-sauce-item__title">
+                        <h3>Спайси соус</h3>
+                    </div>
+                    <div class="body-sauce-item__img" style="
+                    background-image: url('assets/img/png/rollers/i-12.png');
+                  "></div>
+                    <div class="alic">
+                        <div class="body-sauce-item__price">35 руб.</div>
+                        <a class="body-sauce-item__add" href="#!"></a>
+                    </div>
+                </li>
+                <li class="body-sauce__item body-sauce-item">
+                    <div class="body-sauce-item__title">
+                        <h3>Шеф соус</h3>
+                    </div>
+                    <div class="body-sauce-item__img" style="
+                    background-image: url('assets/img/png/rollers/i-13.png');
+                  "></div>
+                    <div class="alic">
+                        <div class="body-sauce-item__price">35 руб.</div>
+                        <a class="body-sauce-item__add" href="#!"></a>
+                    </div>
+                </li>
+                </ul>
+                <div class="menu__mask menu__mask--rollers"></div>
+    </div>
+    </div>
+    </section>
+    <section class="piza drinks" id="drinks">
+        <div class="piza__wrapper">
+            <div class="drinks__decor-1"></div>
+            <div class="drinks__decor-2"></div>
+            <div class="container">
+                <div class="piza__title _title">
+                    <h2>Напитки</h2>
+                </div>
+                <ul class="piza__body">
+                    <li class="piza__item product-card">
+                        <div class="product-card__new-lable new-lable">
+                            <span>ХИТ</span>
+                        </div>
+                        <div class="product-card__img" style="background-image: url('assets/img/png/drink.png')"></div>
+                        <div class="product-card__title">Эспрессо 30мл</div>
+                        <div class="product-card__text">
+                            Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус
+                        </div>
+                        <div class="product-card__price">320 руб.</div>
+                        <div class="product-card__number">1</div>
+                        <a class="product-card__button btn btn--success" href="#!">выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div class="product-card__new-lable new-lable">
+                  <span>NEW</span>
+                </div>
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/drink.png')"
+                ></div>
+                <div class="product-card__title">Американо 250мл</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/drink.png')"
+                ></div>
+                <div class="product-card__title">Капучино 250мл</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/drink.png')"
+                ></div>
+                <div class="product-card__title">Латте 250мл</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/drink.png')"
+                ></div>
+                <div class="product-card__title">Латте халва 350мл</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/drink.png')"
+                ></div>
+                <div class="product-card__title">Капучино сырный 350мл</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+              <li class="piza__item product-card">
+                <div
+                  class="product-card__img"
+                  style="background-image: url('assets/img/png/drink.png')"
+                ></div>
+                <div class="product-card__title">Чай 400мл</div>
+                <div class="product-card__text">
+                  Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                  томатный соус
+                </div>
+                <div class="product-card__price">320 руб.</div>
+                <div class="product-card__number">1</div>
+                <a class="product-card__button btn btn--success" href="#!"
+                  >выбрать</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="map" id="map">
+        <div class="map__wrapper">
+          <div class="container">
+            <div class="map-item__title"><h2>Карта доставки</h2></div>
           </div>
         </div>
       </section>
       <footer class="footer" id="footer">
-        <div class="up_down_btn" title="Наверх"></div>
         <div class="container">
           <div class="footer__body">
-            <div class="footer__item footer-item">
+            <div class="footer__item footer-item--first">
               <a class="footer__logo" href="#!"
                 ><img src="assets/img/svg/logo.svg" alt="logo"
               /></a>
-              <div class="footer-item__title-main">UAB TOMETA</div>
-              <p class="footer-item__property footer-item__property--cod1">
-                Įmonės kodas: 110559074
-              </p>
-              <p class="footer-item__property footer-item__property--cod2">
-                PVM kodas: LT105590716
-              </p>
+                        <div class="footer__copyright">© 2021 “crazy cook”</div>
             </div>
-            <div class="footer__item footer-item">
-              <div class="footer-item__title">Kaunas, Technikos g. 18S</div>
-              <div class="footer-item__description">
-                <p class="footer-item__line">Įprastas darbo laikas:</p>
-                <p class="footer-item__line">I-V 09:00-17:30</p>
-                <p class="footer-item__line">VI - nedirbame</p>
-                <p class="footer-item__line">VII - nedirbame</p>
-              </div>
-              <div class="footer-item__description">
-                <p class="footer-item__line">Telefono numeris:</p>
-                <p class="footer-item__line">
-                  <span>Tel.: </span
-                  ><a class="footer-item__tel" href="#!"
-                    ><span>837 455185</span></a
+            <div class="footer__item footer-item--second">
+                <div class="footer-item__title">Crazy cook</div>
+                <div class="footer-item__description">
+                    <a class="footer-item__line" href="#!">О ресторане</a
+                ><a class="footer-item__line" href="#!">Контакты</a>
+                </div>
+            </div>
+            <div class="footer__item footer-item--third">
+                <div class="footer-item__title">Меню</div>
+                <div class="footer-item__description">
+                    <a class="footer-item__line" href="#!">Пицца</a
+                ><a class="footer-item__line" href="#!">Классическое меню</a
+                ><a class="footer-item__line" href="#!">Crazy меню</a
+                ><a class="footer-item__line" href="#!">Роллы</a
+                ><a class="footer-item__line" href="#!">Блог</a>
+                </div>
+            </div>
+            <div class="footer-properties__data footer-item--forth">
+                <div class="footer-item__title footer-item__title--data">
+                    Звоните <span>для заказа</span>
+                </div>
+                <div class="footer__info info">
+                    <div class="info__phone-data info__phone-data--footer">
+                        <img src="assets/img/svg/s-3.svg" alt="img" /><a class="info__number info__number--footer" href="#!">+7 (999) 999-99-99</a
                   >
-                </p>
-                <p class="footer-item__line">
-                  <span>Fax.: </span
-                  ><a class="footer-item__fax" href="#!"
-                    ><span>837 455144</span></a
-                  >
-                </p>
+                </div>
               </div>
             </div>
-            <div class="footer__item footer-item">
-              <div class="footer-item__title">Klaipėda, Rumpiškės g. 2</div>
-              <div class="footer-item__description">
-                <p class="footer-item__line">Įprastas darbo laikas:</p>
-                <p class="footer-item__line">I-V 10:00-18:00</p>
-                <p class="footer-item__line">VI 10:00-16:00</p>
-                <p class="footer-item__line">VII nedirbame</p>
+            <div class="footer-properties__soc footer-item--fith">
+              <div class="footer__property">
+                <img src="assets/img/svg/s-2.svg" alt="img" /><span
+                  >Краснодар, Северная 277</span
+                >
               </div>
-              <div class="footer-item__description">
-                <p class="footer-item__line">Telefono numeris:</p>
-                <p class="footer-item__line">
-                  <span>Tel.: </span
-                  ><a class="footer-item__tel" href="#!"
-                    ><span>8 46 311970</span></a
-                  >
-                </p>
-                <p class="footer-item__line">
-                  <span>Tel.: </span
-                  ><a class="footer-item__tel" href="#!"
-                    ><span>8 615 52012</span></a
-                  >
-                </p>
-                <p class="footer-item__line">
-                  <span>Tel.: </span
-                  ><a class="footer-item__tel" href="#!"
-                    ><span>8 618 14158</span></a
-                  >
-                </p>
+              <div class="footer__property">
+                <img src="assets/img/svg/s-1.svg" alt="img" /><span
+                  >Пн-Вс: 10:00 - 22:00</span
+                >
               </div>
+              <div class="footer__soc footer-soc">
+                <a class="footer-soc__item" href="#!"
+                  ><img src="assets/img/svg/s-4.svg" alt="img" /></a
+                ><a class="footer-soc__item" href="#!"
+                  ><img src="assets/img/svg/s-6.svg" alt="img" /></a
+                ><a class="footer-soc__item" href="#!"
+                  ><img src="assets/img/svg/s-5.svg" alt="img"
+                /></a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="footer__copyright">
-            2021 © UNIFORMOS All rights reserved
-          </div>
         </div>
-      </footer>
-    </div>
-    <script src="assets/js/app.js"></script>
-  </body>
+        </footer>
+        </div>
+        <script src="assets/js/app.js"></script>
+</body>
+
 </html>
